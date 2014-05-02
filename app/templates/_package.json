@@ -1,0 +1,21 @@
+{
+  "name": "<%= slug %>",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint . && ./node_modules/.bin/jsxhint ./**/*.jsx",
+    "start": "./bin/dev-server.js",
+    "postinstall": "bower install && ./node_modules/.bin/webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^2.14.4",
+    "jshint": "^2.5.0",
+    "jsx-loader": "^0.10.0",
+    "jsxhint": "^0.4.4",
+    "node-sass": "^0.8.6",
+    "webpack": "^1.1.8",
+    "webpack-dev-middleware": "^1.0.5"
+  }
+}

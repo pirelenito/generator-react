@@ -1,0 +1,11 @@
+{
+  "undef": true,
+  "unused": true,
+  "indent": 2,
+  "noempty": true,
+  "browser": true,
+  "globals": {
+    "require": false,
+    "module": false
+  }
+}
