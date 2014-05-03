@@ -10,8 +10,8 @@ var ComponentGenerator = yeoman.generators.NamedBase.extend({
   },
 
   files: function () {
-    this.template('_component.jsx', 'app/components/' + this.componentslug + '.jsx');
-    this.template('_component.scss', 'app/components/' + this.componentslug + '.scss');
+    this.template('_component.jsx', 'app/components/' + this.componentslug + '/' + this.componentslug + '.jsx');
+    this.template('_component.scss', 'app/components/' + this.componentslug + '/' + this.componentslug + '.scss');
   }
 });
 
